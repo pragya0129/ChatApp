@@ -65,6 +65,10 @@ io.on("connection", (socket) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.redirect("/chat");
+});
+
 app.get("/chat", (req, res) => {
   res.render("chat");
 });
