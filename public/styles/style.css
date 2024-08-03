@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url("/images/pexels-earano-1312488.jpg");
+  background-size: cover;
+}
+
 .container {
   margin: 0 auto;
   width: 80%;
@@ -16,12 +21,13 @@
 }
 
 .chatAppHeading {
-  color: aqua;
+  color: black;
   width: 100%;
   max-width: 800px;
   height: 70px;
   border: 1px solid gray;
   box-shadow: 5px 5px 10px black;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +59,7 @@
   width: 25%;
   font-size: 18px;
   color: white;
-  background-color: violet;
+  background-color: blueviolet;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -81,6 +87,9 @@ li {
   display: flex;
   flex-direction: column;
   margin: 10px 0;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .textDetails {
@@ -92,7 +101,7 @@ button#showActivePeople {
   display: block;
   font-size: 18px;
   padding: 10px 20px;
-  background-color: violet;
+  background-color: rgb(255, 0, 0);
   color: white;
   border: none;
   border-radius: 5px;
